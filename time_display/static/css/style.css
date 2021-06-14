@@ -1,0 +1,17 @@
+h2{
+    background-color: #aaaaaa;
+    border-radius: 5px;
+    width:auto;
+    border: 2px dashed black;
+    font-weight: bolder;
+    color: #e1701a;
+    text-align: center;
+}
+
+#time{
+    border: 2px dotted  black;
+    border-radius: 5px;
+    background-color:#f6e6cb;
+    color:auto;
+    height: auto;
+}

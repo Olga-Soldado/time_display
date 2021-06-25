@@ -5,20 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Visualizacion de tiempo.</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     {%load static%}
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">    
+    <link rel="stylesheet" href="{% static 'time_display/templates/css/style.css' %}">    
 </head>
 <body>
-    <div class="container-sm" id="time">
-        <div class="col-4" >
+    <div class="container-sm" style="background-color: #aaaaaa;border-radius: 4px;">
+        <div class="col-4 " >
             <h6>Version 1.</h6>
             <h1 >Time display:</h1>
-            <h2 >{{ time }}</h2>
+            <h2 style="color: #e1701a ;">{{ time }}</h2>
             <h6>Version 2.</h6>
             <h1 >Time display:</h1>
-            <h2>Hora:{{ Hora }}</h2>
-            <h2 >Fecha :{{Fecha}}</h2>
+            <h2 style="color: #e1701a;">Hora:{{ Hora }}</h2>
+            <h2 style="color: #e1701a;">Fecha :{{Fecha}}</h2>
             
         </div>
     </div>

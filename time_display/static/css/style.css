@@ -1,3 +1,4 @@
+
 h2{
     background-color: #aaaaaa;
     border-radius: 5px;
@@ -8,10 +9,12 @@ h2{
     text-align: center;
 }
 
-#time{
+.time{
     border: 2px dotted  black;
     border-radius: 5px;
     background-color:#f6e6cb;
-    color:auto;
+    color:#04009A;
     height: auto;
 }
+
+
